@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // 두 변수의 값을 서로 변환하는 포인터 함수
-void swap(int *x, int *y)
+void swap(int *x, int *y) // 포인터 선언
 {
     int temp;
     temp = *x; // x의 값을 가리키고 그 값을 temp에 넣어준다
