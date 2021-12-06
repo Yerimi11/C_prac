@@ -18,6 +18,7 @@ void showBook(struct Book *p, int n)
 int main(void)
 {
     struct Book *p;
+        // 구조체 포인터로 형변환 (생략가능. 명시해주는 거임)
     p = (struct Book *)malloc(2 * sizeof(struct Book));
     if(p == NULL)
     {

@@ -30,7 +30,7 @@ int main(void)
 
     for(y = 0; y < 8; y++)
     {
-        free(*(pptr + y)); // 할당 해제
+        free(*(pptr + y)); // 할당 해제. 안하면 메모리 누수
     }
     return 0;
 }
